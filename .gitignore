@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+<<<<<<< HEAD
+=======
+
+# PyCharm
+.idea/
+
+
+
+>>>>>>> 6e54ea0d1bda5e7933c26e1035af23ac66786a1c
 # Distribution / packaging
 .Python
 build/
@@ -20,8 +29,11 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
 pip-wheel-metadata/
 share/python-wheels/
+=======
+>>>>>>> 6e54ea0d1bda5e7933c26e1035af23ac66786a1c
 *.egg-info/
 .installed.cfg
 *.egg
@@ -40,14 +52,20 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+<<<<<<< HEAD
 .nox/
+=======
+>>>>>>> 6e54ea0d1bda5e7933c26e1035af23ac66786a1c
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
 *.py,cover
+=======
+>>>>>>> 6e54ea0d1bda5e7933c26e1035af23ac66786a1c
 .hypothesis/
 .pytest_cache/
 
@@ -59,7 +77,10 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+<<<<<<< HEAD
 db.sqlite3-journal
+=======
+>>>>>>> 6e54ea0d1bda5e7933c26e1035af23ac66786a1c
 
 # Flask stuff:
 instance/
@@ -84,6 +105,7 @@ ipython_config.py
 # pyenv
 .python-version
 
+<<<<<<< HEAD
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
@@ -97,6 +119,10 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
+=======
+# celery beat schedule file
+celerybeat-schedule
+>>>>>>> 6e54ea0d1bda5e7933c26e1035af23ac66786a1c
 
 # SageMath parsed files
 *.sage.py
@@ -125,9 +151,16 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+<<<<<<< HEAD
 # Pyre type checker
 .pyre/
 
 
 # All temp folder
 temp/
+=======
+# data
+*.csv
+
+output/
+>>>>>>> 6e54ea0d1bda5e7933c26e1035af23ac66786a1c
